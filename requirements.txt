@@ -1,0 +1,8 @@
+streamlit
+numpy
+scikit-learn
+onnx
+onnxruntime
+openai
+python-dotenv
+skl2onnx
