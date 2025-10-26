@@ -1,0 +1,101 @@
+
+
+### **Slide 1: Problem Statement**
+
+#### **Fraudulent Transactions in Payment Systems**
+
+* **Challenge**: Increasing cases of fraud in digital payment systems, especially with **PayByLink** transactions.
+* **Current Gap**: Traditional fraud detection methods rely heavily on **cloud-based** systems, resulting in **latency** and **dependence on connectivity**.
+* **Pain Points**:
+
+  * **Time Lag**: Cloud-based fraud detection introduces delays in transaction processing.
+  * **User Experience**: Slow response time impacts customer satisfaction.
+  * **Data Privacy**: Cloud-based solutions often require sending sensitive data to the server for analysis.
+
+#### **Impact on Customers and Banks**:
+
+* **For Customers**: Increased transaction rejection, inconvenience, and potential financial loss.
+* **For Banks**: Increased operational costs and reputational damage due to fraud.
+
+---
+
+### **Slide 2: Solution Overview**
+
+#### **Edge AI for Real-Time Fraud Detection**
+
+* **What is Edge AI?**
+
+  * Fraud detection using **machine learning models** directly on customer **mobile devices**, eliminating dependence on cloud processing for real-time decisions.
+
+* **Key Features**:
+
+  * **Local Decision-Making**: Fraud detection happens **instantly** on the customer’s mobile app.
+  * **Offline Capability**: Decisions can be made even with no internet connectivity.
+  * **AI-Powered Detection**: Uses an **ONNX machine learning model** that flags transactions as **legit** or **fraudulent**.
+
+* **How it Works**:
+
+  * The customer initiates a payment request.
+  * The app analyzes the transaction **locally** using the **Edge AI model**.
+  * The fraud detection outcome is provided instantly, ensuring a seamless user experience.
+
+---
+
+### **Slide 3: Features and Benefits for Customers**
+
+#### **Why Customers Benefit from Edge AI**
+
+* **Instant Fraud Detection**:
+
+  * Transactions are flagged in **real-time**, allowing immediate action if fraud is suspected.
+* **Enhanced Security**:
+
+  * Fraud detection happens **locally** on the device, minimizing the risk of sensitive data being transmitted over the internet.
+* **Seamless User Experience**:
+
+  * **No delays** in processing; decisions are made instantly on the mobile device without waiting for cloud communication.
+* **Offline Functionality**:
+
+  * Even in areas with poor connectivity, customers can still perform **secure transactions** and get fraud detection results.
+
+---
+
+### **Slide 4: Features and Benefits for Banks**
+
+#### **Why Banks Benefit from Edge AI**
+
+* **Cost-Efficiency**:
+
+  * Reduce the load on cloud infrastructure by moving fraud detection to the device. This leads to **lower server costs** and **reduced API calls**.
+* **Improved Fraud Detection**:
+
+  * **Real-time** detection on mobile devices reduces the chances of fraudulent transactions, minimizing losses.
+* **Scalable Solution**:
+
+  * Once the model is trained, it can be deployed across **millions of devices**, ensuring fraud prevention without needing to scale cloud infrastructure.
+* **Enhanced Customer Trust**:
+
+  * Customers feel more secure knowing that their transactions are analyzed directly on their devices, improving trust and satisfaction.
+
+---
+
+### **Slide 5: Conclusion and Impact**
+
+#### **Transforming Payment Security with Edge AI**
+
+* **Empowering Real-Time Fraud Detection**:
+
+  * With **Edge AI**, banks and customers can benefit from an **instant, secure, and cost-effective solution** for detecting fraudulent transactions.
+* **Benefits for All**:
+
+  * **Customers**: Faster, secure, and more reliable transactions.
+  * **Banks**: Reduced fraud, cost savings, and increased customer satisfaction.
+* **Next Steps**:
+
+  * Deploy **Edge AI** in **Lloyds Bank Android** app.
+  * **Train and update models** periodically to adapt to evolving fraud patterns.
+  * **Enhance customer experience** by minimizing delays in payment processing and fraud alerts.
+
+---
+
+This content provides a concise overview of the problem, the Edge AI solution, and how both the customers and the bank will benefit. You can further enhance each slide with visuals and diagrams for more impact.
